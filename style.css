@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Rubik:wght@400;500;600;700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.margin {
+  margin-bottom: 8rem;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #ccc;
+  background-color: aliceblue;
+  background-image: url("images/nathan-anderson-iYO-EGosrCo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Rubik", sans-serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  max-width: 1400px;
+
+  /* padding: 2rem; */
+  margin: 1rem auto;
+  background-color: hsla(0, 0%, 0%, 0.216);
+}
+
+.company-name {
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding: 1.4rem;
+  /* background-color: antiquewhite; */
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bg-orange {
+  background-color: orange;
+}
+
+.color-orange {
+  color: rgb(230, 142, 0);
+}
+.child-nav {
+  gap: 2rem;
+  font-size: 1.8rem;
+}
+
+.child-nav a {
+  padding: 2rem;
+  display: block;
+  height: 100%;
+  transition: background-color 100ms linear;
+}
+
+.child-nav a:hover {
+  /* background-color: rgb(0, 44, 175); */
+  background-color: rgb(230, 142, 0);
+}
+
+.sub-nav {
+  background-color: aquamarine;
+}
+
+.input-container {
+  margin-right: 2rem;
+  display: flex;
+}
+
+.search-input::placeholder {
+  color: white;
+  font-size: 1.6rem;
+}
+.search-input {
+  font-size: 1.6rem;
+  padding: 1rem;
+  background: transparent;
+  color: #aaa;
+  border: 1px solid rgb(230, 142, 0);
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search-btn {
+  background-color: rgb(230, 142, 0);
+  color: #fff;
+  font-size: 1.8rem;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 4.8rem;
+}
+
+.icons ion-icon {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  transition: transform 400ms;
+}
+
+.heading {
+  font-size: 6rem;
+  max-width: 500px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.text {
+  max-width: 550px;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.form-container {
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.116);
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.696);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.form-name {
+  text-align: center;
+  background-color: rgb(230, 142, 0);
+  color: rgb(25, 7, 25);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding: 1rem;
+  margin-bottom: 4.8rem;
+}
+
+.inp-container {
+  margin-bottom: 2.4rem;
+}
+
+p input {
+  display: block;
+  width: 90%;
+  padding: 1rem 1rem 1rem 0rem;
+  background-color: transparent;
+  color: white;
+  margin: 3.8rem auto;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+p input::placeholder {
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.btn-form {
+  display: block;
+  width: 90%;
+  margin: 0 auto 3.8rem auto;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  color: #fff !important;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icons :nth-child(n):hover {
+  transform: translateY(-2px);
+}
+.img-margin {
+  margin-top: 3rem;
+}
